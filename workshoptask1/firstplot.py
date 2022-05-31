@@ -5,6 +5,7 @@ import seaborn as sns
 
 inputdata = pd.read_fwf("Be_2s2p3P.dat")
 
+# to give each column a new name, making life a bit easier for me later
 inputdata.rename(columns = {'sqrt(r)':'sqrt_r', 'P(nl;r)':'wavefunctions'}, inplace = True)
 
 # to divide the dataframe into three chunks 
