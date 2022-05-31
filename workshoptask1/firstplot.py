@@ -11,3 +11,6 @@ inputdata.rename(columns = {'sqrt(r)':'sqrt_r', 'P(nl;r)':'wavefunctions'}, inpl
 # to convert each column to a list 
 list1 = inputdata['sqrt_r'].tolist() 
 list2 = inputdata['wavefunctions'].tolist()  
+
+# three spectral are included 
+str_elem = ['1s', '2s', '2s'] 
