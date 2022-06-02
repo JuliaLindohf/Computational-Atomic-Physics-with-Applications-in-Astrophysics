@@ -14,7 +14,7 @@ list1 = inputdata['sqrt_r'].tolist()
 list2 = inputdata['wavefunctions'].tolist()  
 
 # three spectral are included 
-str_elem = ['1s', '2s', '2s'] 
+str_elem = ['1s', '2s', '2p'] 
 
 class wavefunctionplot:
   def __init__(self, sqrtlist, wavefunction, str_elem): 
