@@ -49,8 +49,8 @@ class wavefunctionplot:
     def newfram(list1, list2): 
       # the first list contains the sqrt r 
       # to transform the sqrt r to regular r 
-      regular_r = [float(r)*float(r) for r in list1] 
-      wave = [float(elem) for elem in list2] 
+      regular_r = [np.sqrt(float(r)) for r in list1] 
+      wave = [float(elem)**2 for elem in list2] 
       data = { 'Regular_r': regular_r, 'wavedensity': wave}
       # the output is a new dataframe 
       #print( data )
